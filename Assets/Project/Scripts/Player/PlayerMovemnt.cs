@@ -14,11 +14,16 @@ namespace Player.Movement
     private GameInput _gameInput;
     private Rigidbody2D _rb;
     private Vector2 _moveDir;
+    private Animator _animator;
+
+    private readonly int moveX = Animator.StringToHash("MoveX");
+    private readonly int moveY = Animator.StringToHash("MoveY");
 
     private void Awake()
     {
       _gameInput = new GameInput();
       _rb = GetComponent<Rigidbody2D>();
+      _animator = GetComponent<Animator>();
 
     }
 
@@ -36,6 +41,9 @@ namespace Player.Movement
     private void ReadMovement()
     {
       _moveDir = _gameInput.Player.Move.ReadValue<Vector2>();
+      if(_moveDir == Vector2.zero) return;
+      _animator.SetFloat(moveX,_moveDir.x);
+      _animator.SetFloat(moveY , _moveDir.y);
     }
 
 
