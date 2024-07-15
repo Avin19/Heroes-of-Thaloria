@@ -4,8 +4,6 @@ using UnityEngine;
 /// <summary>
 ///  Player Movement 
 /// </summary>
-namespace Player.Movement
-{
 
   public class PlayerMovemnt : MonoBehaviour
   {
@@ -14,16 +12,17 @@ namespace Player.Movement
     private GameInput _gameInput;
     private Rigidbody2D _rb;
     private Vector2 _moveDir;
-    private Animator _animator;
-
-    private readonly int moveX = Animator.StringToHash("MoveX");
-    private readonly int moveY = Animator.StringToHash("MoveY");
+    private PlayerAnimation animationController;
+    private Player player;
+  
 
     private void Awake()
     {
       _gameInput = new GameInput();
       _rb = GetComponent<Rigidbody2D>();
-      _animator = GetComponent<Animator>();
+      animationController.GetComponent<PlayerAnimation>();
+      player = GetComponent<Player>();
+
 
     }
 
@@ -35,15 +34,20 @@ namespace Player.Movement
 
     private void Move()
     {
+      if (player.Stats.health <= 0) return;
       _rb.MovePosition(_rb.position + _moveDir * (_moveSpeed * Time.deltaTime));
     }
 
     private void ReadMovement()
     {
       _moveDir = _gameInput.Player.Move.ReadValue<Vector2>();
-      if(_moveDir == Vector2.zero) return;
-      _animator.SetFloat(moveX,_moveDir.x);
-      _animator.SetFloat(moveY , _moveDir.y);
+      if (_moveDir == Vector2.zero)
+      {
+        animationController.SetIdleAnimation(false);
+        return;
+      }
+      animationController.SetIdleAnimation(true);
+      animationController.SetMoveAnimation(_moveDir);
     }
 
 
@@ -58,6 +62,5 @@ namespace Player.Movement
       _gameInput.Disable();
     }
   }
-}
 
 
