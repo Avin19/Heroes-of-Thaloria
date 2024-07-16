@@ -20,7 +20,7 @@ using UnityEngine;
     {
       _gameInput = new GameInput();
       _rb = GetComponent<Rigidbody2D>();
-      animationController.GetComponent<PlayerAnimation>();
+      animationController= GetComponent<PlayerAnimation>();
       player = GetComponent<Player>();
 
 
