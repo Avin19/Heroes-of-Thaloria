@@ -1180,7 +1180,7 @@ GameObject:
   - component: {fileID: 831773166}
   - component: {fileID: 831773165}
   m_Layer: 5
-  m_Name: Health
+  m_Name: Mana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1926,8 +1926,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1661822253}
+  - component: {fileID: 1661822254}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: UI Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1948,6 +1949,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 663635280}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1661822254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661822252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a02546180a6b504abd38d3f351e9633, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stats: {fileID: 11400000, guid: 07c84f5c6bf42684bb23e4fd5562d8ad, type: 2}
+  healthBar: {fileID: 625029077}
+  manaBar: {fileID: 831773165}
+  expBar: {fileID: 2092584595}
+  levelTMP: {fileID: 905788522}
+  healthTMP: {fileID: 9748171}
+  manaTMP: {fileID: 613338038}
+  expTMP: {fileID: 227797289}
 --- !u!1 &1709856815
 GameObject:
   m_ObjectHideFlags: 0
