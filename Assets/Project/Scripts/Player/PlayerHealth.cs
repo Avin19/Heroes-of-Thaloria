@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour ,IDamagable
 
   private void Awake()
   {
-    _playerAnimation.GetComponent<PlayerAnimation>();
+    _playerAnimation=GetComponent<PlayerAnimation>();
   }
 
 
@@ -30,7 +30,14 @@ public class PlayerHealth : MonoBehaviour ,IDamagable
   {
     _playerAnimation.SetDeadAnimation();
   }
-  
+
+  private void Update()
+  {
+    if (Input.GetKeyDown(KeyCode.T))
+    {
+      TakeDamage(1);
+    }
+  }
 }
 
 
