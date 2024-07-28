@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6840966047501718851}
   - component: {fileID: 6937665939171424908}
   - component: {fileID: 3719509603078644347}
+  - component: {fileID: 7043901713950107133}
+  - component: {fileID: 1172694424909699868}
   m_Layer: 0
   m_Name: Enemy_Bamboo
   m_TagString: Untagged
@@ -170,3 +172,36 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7043901713950107133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9010205334887301593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72487c19376ddcc4e9706e23f18ad4a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initState: Wander
+  states:
+  - ID: Wander
+    Actions:
+    - {fileID: 1172694424909699868}
+    Transitions: []
+--- !u!114 &1172694424909699868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9010205334887301593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbfdb32b2eca5104da5c96cee85d1f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.5
+  wanderTime: 1
+  moveRange: {x: 2, y: 2}

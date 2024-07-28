@@ -22,10 +22,11 @@ using System;
                 bool value = Transitions[i].Decision.Decide();
                 if (value)
                 {
-                    
+                    enemyBrain.ChangeState(Transitions[i].TrueState);
                 }
                 else
                 {
+                    enemyBrain.ChangeState(Transitions[i].FalseState);
                     
                 }
             }
