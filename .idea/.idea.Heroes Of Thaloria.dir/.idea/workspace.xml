@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eaf20a20-95d6-4c5c-b1d6-a4057854240d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/FSM/Action/.idea/.idea.Action.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/FSM/Action/.idea/.idea.Action.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/FSM/Action/.idea/.idea.Action.dir/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/FSM/Action/.idea/.idea.Action.dir/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefabs/Enemy/Enemy_Bamboo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Prefabs/Enemy/Enemy_Bamboo.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefabs/Enemy/Enemy_Beast.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Prefabs/Enemy/Enemy_Beast.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefabs/Enemy/Enemy_Mushroom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Prefabs/Enemy/Enemy_Mushroom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefabs/Enemy/Enemy_Reptile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Prefabs/Enemy/Enemy_Reptile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/WayPoint/Editor/WayPointEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/WayPoint/Editor/WayPointEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/WayPoint/WayPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/WayPoint/WayPoint.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Avin19"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Avin19/Heroes-of-Thaloria.git",
+    "accountId": "1897f334-fe88-43c6-b23a-e17714b181d4"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2jxIhPm3kfinCmBt27A6kFZK4EW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Enemy",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\avina\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\avina\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\avina\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eaf20a20-95d6-4c5c-b1d6-a4057854240d" name="Changes" comment="" />
+      <created>1722322419857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722322419857</updated>
+      <workItem from="1722322421569" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityProjectDiscoverer">
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

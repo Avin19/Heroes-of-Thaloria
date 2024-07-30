@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 3719509603078644347}
   - component: {fileID: 7043901713950107133}
   - component: {fileID: 1172694424909699868}
-  m_Layer: 0
+  - component: {fileID: 2135432649822545541}
+  m_Layer: 7
   m_Name: Enemy_Bamboo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,3 +206,17 @@ MonoBehaviour:
   speed: 1.5
   wanderTime: 1
   moveRange: {x: 2, y: 2}
+--- !u!114 &2135432649822545541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9010205334887301593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfcebd8e0e30f84fb358ead2748b1cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 1.5264053, y: 1.6513786, z: 0}
