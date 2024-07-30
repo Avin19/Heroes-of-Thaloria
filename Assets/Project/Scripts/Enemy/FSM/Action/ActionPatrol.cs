@@ -9,6 +9,7 @@ public class ActionPatrol: FSMAction
 
   private WayPoint _wayPoint;
   private int pointIndex;
+  private Vector3 nextPostion;
 
   private void Awake()
   {
@@ -19,7 +20,16 @@ public class ActionPatrol: FSMAction
     
   }
 
+  private void FollowPath()
+  {
+    transform.postion = Vector3.MoveTowards();
+  }
+  private Vector3 GetCurrentPosition()
+  {
+
+    return _wayPoint.GetPosition(pointIndex);
+  }
+
 }
 
 
-~
