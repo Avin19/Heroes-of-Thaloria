@@ -1,9 +1,8 @@
-using System;
 using UnityEngine;
 
 
 
-public class WayPoint : MonoBehaviour
+public class Waypoints : MonoBehaviour
 {
     [Header("Config")]
     [SerializeField] private Vector3[] points;
@@ -14,6 +13,7 @@ public class WayPoint : MonoBehaviour
     private void Start()
     {
         EntityPostion = transform.position;
+        gameStarted = true;
     }
 
     public Vector3 GetPostion(int pointIndex)
